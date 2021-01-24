@@ -185,6 +185,13 @@ a:hover {
 
 .suscripcion {
   width: 100%;
+  border-radius: 0;
+  border: 0;
+  color: #FFF;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 700;
+  font: italic bold 1.7rem Georgia, Serif;
 }
 
 #heroSuscripcion {
