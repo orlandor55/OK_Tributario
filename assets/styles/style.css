@@ -114,7 +114,7 @@ a:hover {
   min-height: 100vh;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(12, 39, 59, 0.33)), to(rgba(12, 39, 59, 0.55))), url(../img/oscar-kierszembaun.jpg);
   background-image: linear-gradient(180deg, rgba(12, 39, 59, 0.33), rgba(12, 39, 59, 0.55)), url(../img/oscar-kierszembaun.jpg);
-  background-position: 0px 0px, 100% 50%;
+  background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   background-attachment: scroll, scroll;
   object-fit: cover;
@@ -123,12 +123,12 @@ a:hover {
 
 .colum-left .titulo {
   margin-top: 80px;
-  padding: 5rem 2rem 0rem 5rem;
+  padding: 2rem 2rem 0rem 2rem;
 }
 
 .texto {
   margin-top: 15px;
-  padding: 1rem 5rem 1rem 2rem;
+  padding: 2rem;
   text-align: justify;
 }
 
@@ -144,8 +144,8 @@ a:hover {
 }
 
 .capacitaciones_principal {
-  margin-top: 20px;
-  padding: 5rem 2rem 0 2rem;
+  margin-top: 10px;
+  padding: 2rem 1rem 0 2rem;
 }
 
 .capacitaciones_titulo {
@@ -196,7 +196,7 @@ a:hover {
 
 #heroSuscripcion {
   margin-top: 20px;
-  padding: 2rem 5rem 5rem 5rem;
+  padding: 2rem;
   background-color: white;
   color: #272525;
 }
@@ -322,5 +322,20 @@ strong {
   position: relative;
   font-size: 0.9rem;
   right: .5rem;
+}
+
+#formulario-valido {
+  display: inline-block;
+  width: 100%;
+}
+
+.copyright {
+  position: relative;
+  left: 0rem;
+  bottom: 0px;
+  font-size: 0.8rem;
+  font-weight: 300;
+  line-height: 1rem;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
